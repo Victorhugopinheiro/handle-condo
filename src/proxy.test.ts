@@ -1,3 +1,4 @@
+/// <reference types="jest" />
 import { NextRequest } from "next/server";
 import { RESIDENT_COOKIE } from "@/lib/constants";
 import { signResidentToken } from "@/lib/resident-token";
