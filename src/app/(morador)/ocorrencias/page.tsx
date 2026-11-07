@@ -29,6 +29,7 @@ async function OccurrencesContent({
 }) {
   await requireResident();
   const params = await searchParams;
+  console.log("params", params);
   const filters = parseOccurrenceFilters(params);
   const categories = await listCategories();
   const list = await listOccurrences(filters);
