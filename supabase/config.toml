@@ -1,0 +1,17 @@
+# CondoManager — projeto CLI (supabase link / local)
+project_id = "handle-condominio"
+
+[api]
+enabled = true
+
+[db]
+major_version = 15
+
+[studio]
+enabled = true
+
+[storage]
+enabled = true
+
+[auth]
+enabled = true
